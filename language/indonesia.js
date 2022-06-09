@@ -2,14 +2,14 @@ exports.private = () =>{
 	return`Fitur hanya bisa di gunakan di private chat`
 	}
 exports.wait = () => {
-    return `⏳ Mohon tunggu zifabotz sedang memproses`
+    return `⏳ Mohon tunggu rielbotz sedang memproses`
 }
 exports.ok = () => {
-    return `✅ Done. Sudah zifa proses`
+    return `✅ Done. Sudah riel proses`
 }
 
 exports.err = () => {
-    return `⚠️ Fitur zifabotz Sedang Error`
+    return `⚠️ Fitur rielbotz Sedang Error`
 }
 exports.erorLink = () => {
     return `⚠️ Link nya error`
@@ -34,11 +34,11 @@ exports.cmdNotFound = (cmd, prefix) => {
 }
 
 exports.ownerOnly = () => {
-    return `❎ Command ini khusus Rozi`
+    return `❎ Command ini khusus rielgans`
 }
 
 exports.doneOwner = () => {
-    return `✅  ️Sudah selesai, Rozi`
+    return `✅  ️Sudah selesai, Riel`
 }
 
 exports.groupOnly = () => {
@@ -54,7 +54,7 @@ exports.nhFalse = () => {
 }
 
 exports.listBlock = (blockNumber) => {
-    return `*── 「 ZIFABOTZ 」 ──*
+    return `*── 「 RIELBOTZ 」 ──*
     
 Total diblokir: *${blockNumber.length}* user\n`
 }
@@ -68,7 +68,7 @@ exports.adminAlready = () => {
 }
 
 exports.botNotAdmin = () => {
-    return `Jadikan Zifabotz sebagai admin terlebih dahulu! 🙏`
+    return `Jadikan rielbotz sebagai admin terlebih dahulu! 🙏`
 }
 
 exports.received = (pushname) => {
@@ -87,17 +87,17 @@ exports.notNum = (q) => {
 exports.menunya = (salam, pushname, botname) =>{
 	return`*Hai kak ${pushname} 👋 selamat ${salam}* ... 
 ♡   ❍ㅤ  ⎙ㅤ ⌲
-╭─[ *_Zifabot-MD_* ]─✧
+╭─[ *_rielbotz-MD_* ]─✧
 ╰─────···
 📮 𝚂𝚒𝚕𝚊𝚔𝚊𝚗 𝚙𝚒𝚕𝚒𝚑 𝚋𝚞𝚝𝚝𝚘𝚗 𝚍𝚒 𝚋𝚊𝚠𝚊𝚑 𝚒𝚗𝚒_____•••••••••
-⬣━〔Powered By Rozi━⬣
+⬣━〔Powered By Riel━⬣
 ▌│█║▌║▌║║▌║▌║█│▌
 `
 }
 exports.listMenu = (time, salam, pushname, prefix) => {
     return `*Selamat ${salam} ${pushname} 🧸*
 *⌚Time Server : ${time}*
-*📚 List-Menu ⳹ ❋ཻུ۪۪⸙Zifabot-MD⳹ ❋ཻུ۪۪ :*
+*📚 List-Menu ⳹ ❋ཻུ۪۪⸙rielbotz-MD⳹ ❋ཻུ۪۪ :*
 
 ╭─❒ 「 Bot Info 」 
 ├ ${prefix}owner
