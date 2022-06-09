@@ -758,7 +758,7 @@ if (!m.isGroup) return reply(lang.groupOnly())
 				var but = [
 				{
 					"urlButton": {
-						"displayText": "Instagram rozi",
+						"displayText": "Instagr",
 						"url": `${myweb}`
 						}
 					}
@@ -779,7 +779,7 @@ if (!m.isGroup) return reply(lang.groupOnly())
 				var but = [
 				{
 					"urlButton": {
-						"displayText": "Instagram rozi",
+						"displayText": "Instagram",
 						"url": `${myweb}`
 						}
 					}
@@ -825,7 +825,7 @@ if (!m.isGroup) return reply(lang.groupOnly())
             var but = [
 				{
 					"urlButton": {
-						"displayText": "Instagram Rozi",
+						"displayText": "Instagram",
 						"url": `${myweb}`
 						}
 					}
@@ -838,13 +838,13 @@ if (!m.isGroup) return reply(lang.groupOnly())
             var but = [
           {
             "urlButton": {
-              "displayText": "YouTube Roz😎",
+              "displayText": "𝐆𝐀𝐃𝐀 𝐘𝐓 𝐁𝐀𝐍𝐇🐤",
               "url": `${youtube}`
             }
           },
           {
             "urlButton": {
-              "displayText": "💌Instagram rozi💌",              
+              "displayText": "𝐆𝐀 𝐔𝐒𝐀𝐇 𝐃𝐈𝐊𝐋𝐈𝐊👽",              
               "url": `${myweb}`
 
             }
@@ -857,7 +857,7 @@ if (!m.isGroup) return reply(lang.groupOnly())
           },
           {
             "quickReplyButton": {
-              "displayText": "😼Owner zifabotz😼",
+              "displayText": "😼Owner 𝐑𝐢𝐞𝐥𝐛𝐨𝐭𝐳😼",
 "id": 'owner'
             }
           },
@@ -1215,7 +1215,7 @@ break
                 if (!(isGroupAdmins || isGroupOwner )) return reply(lang.adminOnly())
                 let tekss = `〘 *🧸 Mention All 🧸* 〙\n\n➲ *Message : ${q ? q : 'Nothing'}*\n\n`
 		      	for (let mem of participants) {
-		            tekss += `💌 @${mem.id.split('@')[0]}\n`
+		            tekss += `🐼 @${mem.id.split('@')[0]}\n`
 				}
                 tekss += `\n⋙ *${botname}* ⋘`
                 alpha.sendMessage(from, { text: tekss, mentions: participants.map(a => a.id) }, { quoted: fkontak })
@@ -1581,10 +1581,10 @@ break
             break
 				case 'menu':{
 					if(typemenu == 'templateLocation'){
-						await alpha.send5ButImg(from, lang.menunya(salam, pushname, botname) , `© ${ownername}`,pp_bot, [{"urlButton": {"displayText": "YouTube Rozi💌","url": `${youtube}`}},{"urlButton": {"displayText": "Instagram rozi😼","url": `${myweb}`}},{"quickReplyButton": {"displayText": "💳Donasi ngab💳","id": 'donasi'}},{"quickReplyButton": {"displayText": "Si ganteng awokawoak 😎","id": 'owner'}},{"quickReplyButton": {"displayText": "📮List Command📮","id": 'command'}}] )
+						await alpha.send5ButImg(from, lang.menunya(salam, pushname, botname) , `© ${ownername}`,pp_bot, [{"urlButton": {"displayText": "𝐆𝐀𝐃𝐀 𝐘𝐓 𝐁𝐍𝐇🐤","url": `${youtube}`}},{"urlButton": {"displayText": "𝐆𝐀 𝐔𝐒𝐇 𝐃𝐈 𝐏𝐄𝐍𝐂𝐄𝐓🐼","url": `${myweb}`}},{"quickReplyButton": {"displayText": "💳Donasi ngab💳","id": 'donasi'}},{"quickReplyButton": {"displayText": "𝐎𝐖𝐍𝐄𝐑 𝐑𝐈𝐄𝐋𝐁𝐎𝐓𝐙👺","id": 'owner'}},{"quickReplyButton": {"displayText": "📮List Commandnya tod📮","id": 'command'}}] )
 							}
 						if(typemenu == 'templateTenor'){
-							alpha.send5ButGif(from, lang.menunya(salam, pushname, botname) , `© ${ownername}` ,pp_bot, [{"urlButton": {"displayText": "YouTube Rozi💌","url": `${youtube}`}},{"urlButton": {"displayText": "Instagram rozi😼","url": `${myweb}`}},{"quickReplyButton": {"displayText": "💳Donasi ngab💳","id": 'donasi'}},{"quickReplyButton": {"displayText": "Si ganteng awokawoak 😎","id": 'owner'}},{"quickReplyButton": {"displayText": "📮List Command📮","id": 'command'}}] , {quoted: m})
+							alpha.send5ButGif(from, lang.menunya(salam, pushname, botname) , `© ${ownername}` ,pp_bot, [{"urlButton": {"displayText": "𝐆𝐀𝐃𝐀 𝐘𝐓 𝐁𝐍𝐇🐤","url": `${youtube}`}},{"urlButton": {"displayText": "𝐆𝐀 𝐔𝐒𝐇 𝐃𝐈 𝐏𝐄𝐍𝐂𝐄𝐓🐼","url": `${myweb}`}},{"quickReplyButton": {"displayText": "💳Donasi ngab💳","id": 'donasi'}},{"quickReplyButton": {"displayText": "𝐎𝐖𝐍𝐄𝐑 𝐑𝐈𝐄𝐋𝐁𝐎𝐓𝐙👺","id": 'owner'}},{"quickReplyButton": {"displayText": "📮List Commandnya TOD📮","id": 'command'}}] , {quoted: m})
 						 }
 						if(typemenu == 'katalog'){
 							alpha.sendKatalog(m.chat, "ALL MENU BOT", lang.listMenu(time, salam, pushname, prefix), pp_bot, {quoted:m})
