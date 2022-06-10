@@ -18,22 +18,22 @@ global.autoketik = false //status auto mengetik (auto typing)
 global.available = true //status online (online)
 
 // Other
-global.botname = "*⳹ ❋ཻུ۪۪⸙𝐑𝐈𝐄𝐋𝐁𝐎𝐓𝐙-𝐌𝐝 ⳹❋ཻུ۪۪*" //namabot kalian
-global.zifa = "*⳹ ❋ཻུ۪۪⸙𝐑𝐈𝐄𝐋𝐁𝐎𝐓𝐙-𝐌𝐝⳹ ❋ཻུ۪۪*" //kontol kalian
-global.ownername= "*⳹ ❋ཻུ۪۪⸙𝐑𝐈𝐄𝐋𝐁𝐎𝐓𝐙-𝐌𝐝⳹ ❋ཻུ۪۪*" //nama kalian
-global.myweb ="https://instagram.com/Rielgans" //bebas asal jan hapus
+global.botname = "*⳹ ❋ཻུ۪۪PutraBotz ⳹❋ཻུ۪۪*" //namabot kalian
+global.zifa = "*⳹ ❋ཻུ۪۪PutraPler⳹ ❋ཻུ۪۪*" //kontol kalian
+global.ownername= "*⳹ ❋ཻུ۪۪PutraNich⳹ ❋ཻུ۪۪*" //nama kalian
+global.myweb ="https://instagram.com/Putra Nich" //bebas asal jan hapus
 global.youtube = "gda yt bnh🐤" //bebas asal jan hapus
 global.github = "https/github.com/Rieltod3/" //bebas
-global.email = "rielgans12@gmail.com" //bebas
+global.email = "putraya401@gmail.com" //bebas
 global.region = "Indonesia" //bebas
-global.ownernomer = "6282146218274" // nomor wa kalian
-global.ownernomerr = "6282146218274" //nmr wa kalian
+global.ownernomer = "6283856051043" // nomor wa kalian
+global.ownernomerr = "6283856051043" //nmr wa kalian
 global.thumbnail = "./image/lol.jpg" // ini lol.jpg adalah nama foto di folder image. untuk foto bot
 global.donasi = "./image/donasi.jpg" // foto donasi di folder image
 global.background_welcome="https://telegra.ph/file/f19193f43448cbbeb5e7d.jpg" // maks size 30kb, agar welcome image nya tdk delay
-global.owner = ["6282146218274","6282146218274","6282146218274"] //ganti agar fitur owner bisa di gunakan
+global.owner = ["6283856051043","6283856051043","6283856051043"] //ganti agar fitur owner bisa di gunakan
 global.packname = '𝗥𝗶𝗲𝗹𝗯𝗼𝘁𝘇-𝗠𝗱' //sticker wm ubah
-global.author = 'Di Buat Oleh 𝗥𝗶𝗲𝗹𝗼𝗙𝗰 𖣘' //sticker wm ganti nama kalian
+global.author = 'Di Buat Oleh 𝗥𝗶𝗲𝗹𝗼𝗙𝗰 𖣘' //putrapler
 global.sessionName = 'session'
 global.flaming = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&text='
 global.fluming = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=fluffy-logo&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&text='
