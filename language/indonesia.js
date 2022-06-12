@@ -2,14 +2,14 @@ exports.private = () =>{
 	return`Fitur hanya bisa di gunakan di private chat`
 	}
 exports.wait = () => {
-    return `⏳ Mohon tunggu rielbotz sedang memproses`
+    return `⏳ Mohon tunggu putrabotz sedang memproses`
 }
 exports.ok = () => {
     return `✅ Done. Sudah riel proses`
 }
 
 exports.err = () => {
-    return `⚠️ Fitur rielbotz Sedang Error`
+    return `⚠️ Fitur putrabotz Sedang Error`
 }
 exports.erorLink = () => {
     return `⚠️ Link nya error`
@@ -34,7 +34,7 @@ exports.cmdNotFound = (cmd, prefix) => {
 }
 
 exports.ownerOnly = () => {
-    return `❎ Command ini khusus rielgans`
+    return `❎ Command ini khusus putragans`
 }
 
 exports.doneOwner = () => {
@@ -42,7 +42,7 @@ exports.doneOwner = () => {
 }
 
 exports.groupOnly = () => {
-    return `💬  ini bukan di dalam grub karna command ini hanya bisa di gunakan di dalam grub bukan di chat pribadi!`
+    return `💬  ini bukan di dalam grub karna command ini hanya bisa di gunakan di dalam grub bukan di chat pribadi goblok!`
 }
 
 exports.adminOnly = () => {
@@ -54,7 +54,7 @@ exports.nhFalse = () => {
 }
 
 exports.listBlock = (blockNumber) => {
-    return `*── 「 RIELBOTZ 」 ──*
+    return `*── 「 PUTRABOTZ 」 ──*
     
 Total diblokir: *${blockNumber.length}* user\n`
 }
@@ -68,7 +68,7 @@ exports.adminAlready = () => {
 }
 
 exports.botNotAdmin = () => {
-    return `Jadikan rielbotz sebagai admin terlebih dahulu! 🙏`
+    return `Jadikan putrabotz sebagai admin terlebih dahulu! 🙏`
 }
 
 exports.received = (pushname) => {
@@ -87,17 +87,17 @@ exports.notNum = (q) => {
 exports.menunya = (salam, pushname, botname) =>{
 	return`*Hai kak ${pushname} 👋 selamat ${salam}* ... 
 ♡   ❍ㅤ  ⎙ㅤ ⌲
-╭─[ *_rielbotz-MD_* ]─✧
+╭─[ *_putrabotz-MD_* ]─✧
 ╰─────···
 📮 𝚂𝚒𝚕𝚊𝚔𝚊𝚗 𝚙𝚒𝚕𝚒𝚑 𝚋𝚞𝚝𝚝𝚘𝚗 𝚍𝚒 𝚋𝚊𝚠𝚊𝚑 𝚒𝚗𝚒_____•••••••••
-⬣━〔Powered By Riel━⬣
+⬣━〔Powered By Putra━⬣
 ▌│█║▌║▌║║▌║▌║█│▌
 `
 }
 exports.listMenu = (time, salam, pushname, prefix) => {
     return `*Selamat ${salam} ${pushname} 🧸*
 *⌚Time Server : ${time}*
-*📚 List-Menu ⳹ ❋ཻུ۪۪⸙rielbotz-MD⳹ ❋ཻུ۪۪ :*
+*📚 List-Menu ⳹ ❋ཻུ۪۪⸙putrabotz-MD⳹ ❋ཻུ۪۪ :*
 
 ╭─❒ 「 Bot Info 」 
 ├ ${prefix}owner
