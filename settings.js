@@ -26,13 +26,13 @@ global.youtube = "gda yt bnh🐤" //bebas asal jan hapus
 global.github = "https/github.com/Rieltod3/" //bebas
 global.email = "putraya401@gmail.com" //bebas
 global.region = "Indonesia" //bebas
-global.ownernomer = "6283856051043" // nomor wa kalian
-global.ownernomerr = "6283856051043" //nmr wa kalian
+global.ownernomer = "6283840600765" // nomor wa kalian
+global.ownernomerr = "6283840600765" //nmr wa kalian
 global.thumbnail = "./image/lol.jpg" // ini lol.jpg adalah nama foto di folder image. untuk foto bot
 global.donasi = "./image/donasi.jpg" // foto donasi di folder image
 global.background_welcome="https://telegra.ph/file/f19193f43448cbbeb5e7d.jpg" // maks size 30kb, agar welcome image nya tdk delay
-global.owner = ["6283856051043","6283856051043","6283856051043"] //ganti agar fitur owner bisa di gunakan
-global.packname = '𝗥𝗶𝗲𝗹𝗯𝗼𝘁𝘇-𝗠𝗱' //sticker wm ubah
+global.owner = ["6283840600765","6283840600765","6283840600765"] //ganti agar fitur owner bisa di gunakan
+global.packname = '𝗥𝗶𝗲𝗹𝗯𝗼𝘁𝘇-𝗠𝗱' //Punya Mu
 global.author = 'Di Buat Oleh 𝗥𝗶𝗲𝗹𝗼𝗙𝗰 𖣘' //putrapler
 global.sessionName = 'session'
 global.flaming = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&text='
