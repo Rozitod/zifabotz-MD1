@@ -42,7 +42,7 @@ exports.doneOwner = () => {
 }
 
 exports.groupOnly = () => {
-    return `💬  ini bukan di dalam grub karna command ini hanya bisa di gunakan di dalam grub bukan di chat pribadi goblok!`
+    return `💬  ini bukan di dalam grub karna command ini hanya bisa di gunakan di dalam grub bukan di chat pribadi!`
 }
 
 exports.adminOnly = () => {
