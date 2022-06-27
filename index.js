@@ -1581,10 +1581,10 @@ break
             break
 				case 'menu':{
 					if(typemenu == 'templateLocation'){
-						await alpha.send5ButImg(from, lang.menunya(salam, pushname, botname) , `© ${ownername}`,pp_bot, [{"urlButton": {"displayText": "𝐆𝐀𝐃𝐀 𝐘𝐓 𝐁𝐍𝐇🐤","url": `${youtube}`}},{"urlButton": {"displayText": "𝐆𝐀 𝐔𝐒𝐇 𝐃𝐈 𝐏𝐄𝐍𝐂𝐄𝐓🐼","url": `${myweb}`}},{"quickReplyButton": {"displayText": "💳Donasi ngab💳","id": 'donasi'}},{"quickReplyButton": {"displayText": "𝐎𝐖𝐍𝐄𝐑 𝐑𝐈𝐄𝐋𝐁𝐎𝐓𝐙👺","id": 'owner'}},{"quickReplyButton": {"displayText": "📮List Commandnya tod📮","id": 'command'}}] )
+						await alpha.send5ButImg(from, lang.menunya(salam, pushname, botname) , `© ${ownername}`,pp_bot, [{"urlButton": {"displayText": "𝐆𝐀𝐃𝐀 𝐘𝐓 𝐁𝐍𝐇🐤","url": `${youtube}`}},{"urlButton": {"displayText": "𝐆𝐀 𝐔𝐒𝐇 𝐃𝐈 𝐏𝐄𝐍𝐂𝐄𝐓🐼","url": `${myweb}`}},{"quickReplyButton": {"displayText": "💳Donasi ngab💳","id": 'donasi'}},{"quickReplyButton": {"displayText": "𝐎𝐖𝐍𝐄𝐑 𝐅𝐀𝐑𝐇𝐀𝐍𝐁𝐎𝐓𝐙👺","id": 'owner'}},{"quickReplyButton": {"displayText": "📮List Commandnya tod📮","id": 'command'}}] )
 							}
 						if(typemenu == 'templateTenor'){
-							alpha.send5ButGif(from, lang.menunya(salam, pushname, botname) , `© ${ownername}` ,pp_bot, [{"urlButton": {"displayText": "𝐆𝐀𝐃𝐀 𝐘𝐓 𝐁𝐍𝐇🐤","url": `${youtube}`}},{"urlButton": {"displayText": "𝐆𝐀 𝐔𝐒𝐇 𝐃𝐈 𝐏𝐄𝐍𝐂𝐄𝐓🐼","url": `${myweb}`}},{"quickReplyButton": {"displayText": "💳Donasi ngab💳","id": 'donasi'}},{"quickReplyButton": {"displayText": "𝐎𝐖𝐍𝐄𝐑 𝐑𝐈𝐄𝐋𝐁𝐎𝐓𝐙👺","id": 'owner'}},{"quickReplyButton": {"displayText": "📮List Commandnya TOD📮","id": 'command'}}] , {quoted: m})
+							alpha.send5ButGif(from, lang.menunya(salam, pushname, botname) , `© ${ownername}` ,pp_bot, [{"urlButton": {"displayText": "𝐆𝐀𝐃𝐀 𝐘𝐓 𝐁𝐍𝐇🐤","url": `${youtube}`}},{"urlButton": {"displayText": "𝐆𝐀 𝐔𝐒𝐇 𝐃𝐈 𝐏𝐄𝐍𝐂𝐄𝐓🐼","url": `${myweb}`}},{"quickReplyButton": {"displayText": "💳Donasi ngab💳","id": 'donasi'}},{"quickReplyButton": {"displayText": "𝐎𝐖𝐍𝐄𝐑 𝐅𝐀𝐑𝐇𝐀𝐍𝐁𝐎𝐓𝐙👺","id": 'owner'}},{"quickReplyButton": {"displayText": "📮List Commandnya TOD📮","id": 'command'}}] , {quoted: m})
 						 }
 						if(typemenu == 'katalog'){
 							alpha.sendKatalog(m.chat, "ALL MENU BOT", lang.listMenu(time, salam, pushname, prefix), pp_bot, {quoted:m})
@@ -1593,12 +1593,12 @@ break
 							alpha.sendKatalog2(m.chat, "ALL MENU BOT", lang.listMenu(time, salam, pushname, prefix), pp_bot, {quoted:m})
 							}
 						if(typemenu == 'list'){
-							alpha.sendListMenu(m.chat, `╭─⬣「 _*INFO USER*_ 」⬣\n│  *Name* : ${pushname}\n│  *Number* : ${sender.split("@")[0]}\n│  *Status* : ${isCreator? ` Owner️ ${botname}` :`User ${botname}`}\n╰─⬣\n\n╭─⬣「 _*INFO ZIFABOTZ*_ 」⬣\n│ *Prefix* :  ${prefix} \n│ *🧸Name* : ${botname}\n│ *😼Owner* : ${ownername}\n│ *💌Mode* : ${alpha.public ? 'Public-Mode' : 'Self-Mode'}\n│ *⌚Runtime* : ${runtime(process.uptime())}\n│ *Lib* : Baileys-Md@4.0.0\n╰─⬣\n\n╭─⬣「 _*WAKTU INDONESIAN*_ 」⬣\n│ *Wib* : ${time}\n│ *Wita* : ${wita}\n│ *Wit* : ${wit}  \n╰─⬣`, `${zifa}`, `Selamat ${salam} ${pushname} ☺️`, `»Pilihan Menu«`, {quoted:fgif})
+							alpha.sendListMenu(m.chat, `╭─⬣「 _*INFO USER*_ 」⬣\n│  *Name* : ${pushname}\n│  *Number* : ${sender.split("@")[0]}\n│  *Status* : ${isCreator? ` Owner️ ${botname}` :`User ${botname}`}\n╰─⬣\n\n╭─⬣「 _*INFO FARHANBOTZ*_ 」⬣\n│ *Prefix* :  ${prefix} \n│ *🧸Name* : ${botname}\n│ *😼Owner* : ${ownername}\n│ *💌Mode* : ${alpha.public ? 'Public-Mode' : 'Self-Mode'}\n│ *⌚Runtime* : ${runtime(process.uptime())}\n│ *Lib* : Baileys-Md@4.0.0\n╰─⬣\n\n╭─⬣「 _*WAKTU INDONESIAN*_ 」⬣\n│ *Wib* : ${time}\n│ *Wita* : ${wita}\n│ *Wit* : ${wit}  \n╰─⬣`, `${zifa}`, `Selamat ${salam} ${pushname} ☺️`, `»Pilihan Menu«`, {quoted:fgif})
 						}
 					}
 					break    
 	case 'allmenu':{
-			await alpha.send5ButImg(from, `Hai kak ${pushname} 👋, saya *${botname}* ` + '\n\n' + lang.listMenu(time, salam, pushname, prefix) , `© ${ownername}`,pp_bot, [{"urlButton": {"displayText": "YouTube Rozi💌","url": `${youtube}`}},{"urlButton": {"displayText": "Instagram rozi😼","url": `${myweb}`}},{"quickReplyButton": {"displayText": "💳Donasi ngab💳","id": 'donasi'}},{"quickReplyButton": {"displayText": "Si ganteng awokawoak 😎","id": 'owner'}},{"quickReplyButton": {"displayText": "Taati peraturan zifabotz","id": 'rules'}}] )
+			await alpha.send5ButImg(from, `Hai kak ${pushname} 👋, saya *${botname}* ` + '\n\n' + lang.listMenu(time, salam, pushname, prefix) , `© ${ownername}`,pp_bot, [{"urlButton": {"displayText": "YouTube GDA bnh💌","url": `${youtube}`}},{"urlButton": {"displayText": "Instagram farhan😼","url": `${myweb}`}},{"quickReplyButton": {"displayText": "💳Donasi ngab💳","id": 'donasi'}},{"quickReplyButton": {"displayText": "Si ganteng awokawoak 😎","id": 'owner'}},{"quickReplyButton": {"displayText": "Taati peraturan botz","id": 'rules'}}] )
 		}
 	break   
 	case 'infocmd': case'infomenu':{
