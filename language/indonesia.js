@@ -2,14 +2,14 @@ exports.private = () =>{
 	return`Fitur hanya bisa di gunakan di private chat`
 	}
 exports.wait = () => {
-    return `⏳ Mohon tunggu putrabotz sedang memproses`
+    return `⏳ Mohon tunggu farhanbotz sedang memproses`
 }
 exports.ok = () => {
-    return `✅ Done. Sudah riel proses`
+    return `✅ Done. Sudah farhan proses`
 }
 
 exports.err = () => {
-    return `⚠️ Fitur putrabotz Sedang Error`
+    return `⚠️ Fitur FARHANbotz Sedang Error`
 }
 exports.erorLink = () => {
     return `⚠️ Link nya error`
@@ -34,11 +34,11 @@ exports.cmdNotFound = (cmd, prefix) => {
 }
 
 exports.ownerOnly = () => {
-    return `❎ Command ini khusus putragans`
+    return `❎ Command ini khusus farhangans`
 }
 
 exports.doneOwner = () => {
-    return `✅  ️Sudah selesai, Riel`
+    return `✅  ️Sudah selesai, FArhan`
 }
 
 exports.groupOnly = () => {
@@ -54,7 +54,7 @@ exports.nhFalse = () => {
 }
 
 exports.listBlock = (blockNumber) => {
-    return `*── 「 PUTRABOTZ 」 ──*
+    return `*── 「 FARHANBOTZ 」 ──*
     
 Total diblokir: *${blockNumber.length}* user\n`
 }
@@ -68,7 +68,7 @@ exports.adminAlready = () => {
 }
 
 exports.botNotAdmin = () => {
-    return `Jadikan putrabotz sebagai admin terlebih dahulu! 🙏`
+    return `Jadikan FArhanbotz sebagai admin terlebih dahulu! 🙏`
 }
 
 exports.received = (pushname) => {
@@ -87,17 +87,17 @@ exports.notNum = (q) => {
 exports.menunya = (salam, pushname, botname) =>{
 	return`*Hai kak ${pushname} 👋 selamat ${salam}* ... 
 ♡   ❍ㅤ  ⎙ㅤ ⌲
-╭─[ *_putrabotz-MD_* ]─✧
+╭─[*_Farhan store botz-MD_*]─✧
 ╰─────···
 📮 𝚂𝚒𝚕𝚊𝚔𝚊𝚗 𝚙𝚒𝚕𝚒𝚑 𝚋𝚞𝚝𝚝𝚘𝚗 𝚍𝚒 𝚋𝚊𝚠𝚊𝚑 𝚒𝚗𝚒_____•••••••••
-⬣━〔Powered By Putra━⬣
+⬣━〔Powered By Farhan━⬣
 ▌│█║▌║▌║║▌║▌║█│▌
 `
 }
 exports.listMenu = (time, salam, pushname, prefix) => {
     return `*Selamat ${salam} ${pushname} 🧸*
 *⌚Time Server : ${time}*
-*📚 List-Menu ⳹ ❋ཻུ۪۪⸙putrabotz-MD⳹ ❋ཻུ۪۪ :*
+*📚 List-Menu ⳹ ❋ཻུ۪۪⸙Farhanbotz-MD⳹ ❋ཻུ۪۪ :*
 
 ╭─❒ 「 Bot Info 」 
 ├ ${prefix}owner
